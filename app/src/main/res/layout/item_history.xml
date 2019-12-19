@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <TextView
+                android:id="@+id/txtItemHistoryBenzinName"
+                tools:text="АИ-95 Euro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp" />
+
+        <TextView
+                android:id="@+id/txtItemHistoryLiters"
+                tools:text="Количество топлива: 50 л"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        <TextView
+                android:id="@+id/txtItemHistoryDate"
+                tools:text="Дата: 18.12.2019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        <TextView
+                android:id="@+id/txtItemHistoryWorker"
+                tools:text="Ответственный: Дмитрий Мороз"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        <TextView
+                android:id="@+id/txtItemHistoryComment"
+                tools:text="Комментарий: Первичная закупка"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/inc_divider" />
+
+</LinearLayout>

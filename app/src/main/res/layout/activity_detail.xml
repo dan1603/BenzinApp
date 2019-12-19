@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".presentation.activities.detail.DetailActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/txtDetailName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="АИ-92"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+        <include layout="@layout/inc_divider" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:text="Закупка"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+        <TextView
+                android:id="@+id/txtDetailZakup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:text="26.3 грн"
+                android:textAlignment="center"
+                android:textSize="@dimen/txt_size_35" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:text="Продажа"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+        <TextView
+                android:id="@+id/txtDetailSell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:layout_marginBottom="40dp"
+                android:text="28.3 грн"
+                android:textAlignment="center"
+                android:textSize="@dimen/txt_size_35" />
+
+        <include layout="@layout/inc_divider" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:text="В резервуаре хранится"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+        <TextView
+                android:id="@+id/txtDetailZapas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:layout_marginBottom="10dp"
+                android:text="10000 л"
+                android:textAlignment="center"
+                android:textSize="@dimen/txt_size_35" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/indentation_6"
+                android:layout_marginEnd="@dimen/indentation_6"
+                android:text="топлива"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

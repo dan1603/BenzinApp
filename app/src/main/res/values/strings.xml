@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Benzin App</string>
+    <string name="EXTRAS_ID">ID</string>
+    <string name="txt_default_name">Name</string>
+    <string name="txt_default_surname">Surname</string>
+    <string name="txt_default_fathername">Father\'s name</string>
+    <string name="btn_text_get_user">GET USER</string>
+    <string name="et_hint_enter_user_id">Enter worker ID</string>
+    <string name="txt_def_error">Error</string>
+    <string name="et_hint_enter_your_name">Enter your name</string>
+    <string name="et_hint_enter_your_surname">Enter your surname</string>
+    <string name="et_hint_enter_your_fathername">Enter your father\'s name</string>
+    <string name="btn_text_add_user">Add User</string>
+    <string name="text_add_response_message">Add response message</string>
+    <string name="btn_text_save">Save</string>
+    <string name="btn_text_delete_user">Delete User</string>
+    <string name="text_file_select">Select File to upload</string>
+    <string name="btn_text_select_file">Select file</string>
+
+    <string name="error_fail">Невозможно подтвердить личность пользователя</string>
+    <string name="keyguard_title">Пройдите авторизацию</string>
+    <string name="keyguard_description"> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="type">
+        <item>Продажа</item>
+        <item>Закупка</item>
+    </string-array>
+
+    <string-array name="workers">
+        <item>Мороз Дмитрий Максимович</item>
+        <item>Суховольский Андрей Игоревич</item>
+        <item>Власюк Валерий Сергеевич</item>
+        <item>Калашник Денис Константинович</item>
+        <item>Шпингалетов Олег Владимирович</item>
+        <item>Пируаненко Иван Борисович</item>
+        <item>Гашеткин Пауль Рамазанович</item>
+        <item>Смиевенко Семен Кондратиевич</item>
+        <item>Пастушенко Вениамин Маркович</item>
+    </string-array>
+
+    <string-array name="benzins">
+        <item>АИ-92</item>
+        <item>АИ-95 Euro</item>
+        <item>АИ-95 Pulls</item>
+        <item>ДТ Euro</item>
+        <item>ДТ Pulls</item>
+    </string-array>
+</resources>
